@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* GENERAL */
+html.cr-page,
+body.cr-body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body.cr-body {
+	position: relative;
+}
+
+/* RAIN */
+.cr-rain {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.cr-rain canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+/* MESSAGE */
+.cr-message {
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	padding: 8px 12px;
+	position: absolute;
+	display: block;
+	visibility: hidden;
+	cursor: default;
+	user-select: none;
+}
+.cr-message.cr-show {
+	visibility: visible;
+}
+
+/* CONTEXT MESSAGE */
+.cr-context-message {
+	font-size: 13px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	padding: 4px 8px;
+	position: fixed;
+	visibility: hidden;
+	white-space: nowrap;
+	user-select: none;
+}
+.cr-context-message.cr-show {
+	visibility: visible;
+}
+.cr-context-message a {
+	color: inherit;
+	text-decoration: none;
+}
