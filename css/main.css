@@ -451,7 +451,6 @@ html {
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
-  height: 390px;
 }
 
 @media (min-width: 992px) {
@@ -730,23 +729,4 @@ html {
 .footer .section-right ul li .yt:hover {
   color: #c4302b;
   transition: 0.5s;
-}
-
-.cr-rain-1 {
-  width: 100%;
-  height: 510px;
-  float: left;
-  margin-top: 30px;
-  position: fixed;
-  z-index: -1;
-}
-.center {
-  position: absolute;
-  margin: auto;
-  display: inline-block;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 2;
 }
