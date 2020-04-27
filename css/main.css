@@ -78,6 +78,18 @@ html {
     height: auto;
     visibility: visible;
     display: flex;
+    bottom: initial;
+    max-height: initial;
+    min-height: initial;
+    left: initial;
+    position: relative;
+    right: initial;
+    top: initial;
+    transition: all 0.25s ease-in;
+    visibility: initial;
+    width: initial;
+    z-index: initial;
+    overflow: initial;
   }
 
   .nav ul.active {
