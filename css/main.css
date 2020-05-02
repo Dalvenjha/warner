@@ -773,7 +773,7 @@ html {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   top: 0;
   left: 0;
   background-color: #111;
@@ -859,7 +859,8 @@ html {
   color: white;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
+  padding-top: 15px;
 }
 
 .c-sidebar-navigator {
@@ -889,6 +890,7 @@ html {
   background: none;
   border: 2px solid #434a53;
   border-radius: 50%;
+  pointer-events: none;
 }
 
 .c-sidebar-navigator li a .c-sidebar-navigator__indicator:after {
@@ -925,6 +927,7 @@ html {
   font-size: 16px;
   padding-top: 4px;
   line-height: 1.2;
+  pointer-events: none;
 }
 
 .c-sidebar-navigator__link.is-active .c-sidebar-navigator__title,
@@ -938,7 +941,7 @@ html {
 
 @media (min-width: 992px) {
   .body-nav-lateral {
-    padding: 80px 100px 0 100px;
+    padding: 80px 100px 50px 100px;
   }
 }
 
@@ -950,8 +953,13 @@ html {
 .body-nav-lateral p {
   padding-top: 10px;
   font-size: 14px;
+  line-height: 1.6em;
 }
 
 .g-mt--1 {
   margin-top: 10px;
 }
+
+.g-mb--2 {
+    margin-bottom: 20px;
+  }

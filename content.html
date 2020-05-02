@@ -45,63 +45,63 @@
     <p class="title">Getting Started with the VIPER Architecture Pattern</p>
     <nav class="c-sidebar-navigator">
       <li>
-        <a class="c-sidebar-navigator__link is-active  scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link is-active  scrollactive-item" href="cont">
           <i class="c-sidebar-navigator__indicator"></i>
           <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Getting Started</span>
         </a>
       </li>
       <li>
-        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link scrollactive-item" href="cont2">
           <i class="c-sidebar-navigator__indicator"></i>
           <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">What is VIPER?</span>
         </a>
       </li>
       <li>
-        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link scrollactive-item" href="cont3">
           <i class="c-sidebar-navigator__indicator"></i>
           <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
         </a>
       </li>
       <li>
-        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link scrollactive-item" href="cont4">
           <i class="c-sidebar-navigator__indicator"></i>
           <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
         </a>
       </li>
       <li>
-        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link scrollactive-item" href="cont5">
           <i class="c-sidebar-navigator__indicator"></i>
           <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Modifying the Model from the View</span>
         </a>
       </li>
       <li>
-        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link scrollactive-item" href="cont6">
           <i class="c-sidebar-navigator__indicator"></i>
           <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Using a Second Presenter for the Map</span>
         </a>
       </li>
       <li>
-        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link scrollactive-item" href="cont7">
           <i class="c-sidebar-navigator__indicator"></i>
           <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
         </a>
       </li>
       <li>
-        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link scrollactive-item" href="cont8">
           <i class="c-sidebar-navigator__indicator"></i>
           <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
         </a>
       </li>
       <li>
-        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link scrollactive-item" href="cont9">
           <i class="c-sidebar-navigator__indicator"></i>
           <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
         </a>
       </li>
       <li>
-        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+        <a class="c-sidebar-navigator__link scrollactive-item" href="cont10">
           <i class="c-sidebar-navigator__indicator"></i>
-          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures In Viper</span>
         </a>
       </li>
     </nav>
@@ -115,23 +115,91 @@
     </div>
     <nav class="nav">
       <div class="icon-nav">
-        <i class="fas fa-bars" onclick="openNav()"></i>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
       </div>
+      <ul id="main-menu" class="">
+        <li>
+          <a href=""><i class="fas fa-home"></i>Home</a>
+        </li>
+        <li>
+          <a href=""><i class="fas fa-briefcase"></i>Portfolio</a>
+        </li>
+        <li>
+          <a href=""><i class="fas fa-gamepad"></i>Games & Apps</a>
+        </li>
+        <li>
+          <a href=""><i class="fas fa-id-card-alt"></i>Contact</a>
+        </li>
+        <li>
+          <a href=""><i class="fas fa-address-card"></i>About Us</a>
+        </li>
+      </ul>
     </nav>
   </div>
   <article class="body-nav-lateral">
-    <div>
-      <h2>Defining an Entity</h2>
+    <div class="responsiveMenu" onclick="openNav()">
+        <i class="fas fa-bars"></i> Temario
+    </div>
+    <div class="g-mt--1" id="cont">
+      <h2>Getting Started</h2>
       <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
       <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
       <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
     </div>
-    <div class="g-mt--1">
-      <h2>Defining an Entity</h2>
+    <div class="g-mt--1" id="cont2">
+      <h2>What is VIPER?</h2>
       <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
       <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
       <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
     </div>
+    <div class="g-mt--1" id="cont3">
+        <h2>Comparing Architectures</h2>
+        <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+        <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+        <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+      </div>
+      <div class="g-mt--1" id="cont4">
+        <h2>Defining an Entity</h2>
+        <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+        <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+        <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+      </div>
+      <div class="g-mt--1" id="cont5">
+        <h2>Defining an Entity</h2>
+        <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+        <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+        <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+      </div>
+      <div class="g-mt--1" id="cont6">
+        <h2>Defining an Entity</h2>
+        <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+        <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+        <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+      </div>
+      <div class="g-mt--1" id="cont7">
+        <h2>Defining an Entity</h2>
+        <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+        <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+        <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+      </div>
+      <div class="g-mt--1" id="cont8">
+        <h2>Defining an Entity</h2>
+        <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+        <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+        <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+      </div>
+      <div class="g-mt--1" id="cont9">
+        <h2>Defining an Entity</h2>
+        <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+        <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+        <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+      </div>
+      <div class="g-mt--1" id="cont10">
+        <h2>Defining an Entity</h2>
+        <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+        <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+        <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+      </div>
   </article>
 </div>
 
