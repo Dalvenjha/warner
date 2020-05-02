@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+  <!--  <link rel="stylesheet" type="text/css" href="css/fonts.css" />-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet"/>
+  <!--  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg></script>-->
+  <script src="https://kit.fontawesome.com/7f83847c14.js" crossorigin="anonymous" data-auto-a11y="true"
+          SameSite="true"></script>
+
+  <title>QuimaLabs</title>
+</head>
+
+<body>
+<header id="mySidenav" class="sidenav">
+  <div class="nav-lateral">
+    <div class="logo">
+      <img src="img/logo.png" alt="logo"/>
+    </div>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <p class="title">Getting Started with the VIPER Architecture Pattern</p>
+    <nav class="c-sidebar-navigator">
+      <li>
+        <a class="c-sidebar-navigator__link is-active  scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Getting Started</span>
+        </a>
+      </li>
+      <li>
+        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">What is VIPER?</span>
+        </a>
+      </li>
+      <li>
+        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
+        </a>
+      </li>
+      <li>
+        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
+        </a>
+      </li>
+      <li>
+        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Modifying the Model from the View</span>
+        </a>
+      </li>
+      <li>
+        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Using a Second Presenter for the Map</span>
+        </a>
+      </li>
+      <li>
+        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
+        </a>
+      </li>
+      <li>
+        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
+        </a>
+      </li>
+      <li>
+        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
+        </a>
+      </li>
+      <li>
+        <a class="c-sidebar-navigator__link scrollactive-item" href="">
+          <i class="c-sidebar-navigator__indicator"></i>
+          <span class="c-sidebar-navigator__title c-sidebar-navigator__title--primary">Comparing Architectures</span>
+        </a>
+      </li>
+    </nav>
+  </div>
+</header>
+
+<div id="content-nav-lateral">
+  <div class="c-header">
+    <div class="logo">
+      <img src="img/logo.png" alt="logo"/>
+    </div>
+    <nav class="nav">
+      <div class="icon-nav">
+        <i class="fas fa-bars" onclick="openNav()"></i>
+      </div>
+    </nav>
+  </div>
+  <article class="body-nav-lateral">
+    <div>
+      <h2>Defining an Entity</h2>
+      <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+      <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+      <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+    </div>
+    <div class="g-mt--1">
+      <h2>Defining an Entity</h2>
+      <p>VIPER is a fun acronym for this architecture, but its order isn’t proscriptive.</p>
+      <p>The fastest way to get something on screen is to start with the entity. The entity is the data object(s) for the project. In this case, the main entities are <em>Trip</em>, which contains a list of <em>Waypoint</em>s, which are the stops in the trip.</p>
+      <p>The app contains a <em>DataModel</em> class that holds a list of trips. The model uses a JSON file for local persistence, but you can replace this by a remote back end without having to modify any of the UI-level code. That’s one of the advantages of clean architecture: When you change one part — like the persistence layer — it’s isolated from other areas of the code. </p>
+    </div>
+  </article>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
